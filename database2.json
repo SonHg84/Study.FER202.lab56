@@ -1,0 +1,171 @@
+{
+  "accounts": [
+    {
+      "id": "1",
+      "email": "loandt34@fpt.edu.vn",
+      "password": "123",
+      "role": "lecturer",
+      "status": "active"
+    },
+    {
+      "id": "2",
+      "email": "fullnamesv@fpt.edu.vn",
+      "password": "123",
+      "role": "student",
+      "status": "active"
+    }
+  ],
+  "subjects": [
+    {
+      "id": "CSD201",
+      "name": "Data Structures and Algorithms",
+      "questionsCount": 3
+    },
+    {
+      "id": "CSD203",
+      "name": "Advanced Data Structures",
+      "questionsCount": 2
+    },
+    {
+      "id": "DBI202",
+      "name": "Databases",
+      "questionsCount": 2
+    },
+    {
+      "id": "FER202",
+      "name": "Front-End React",
+      "questionsCount": 2
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "subjectId": "CSD201",
+      "content": "Which data structure uses LIFO principle?",
+      "options": [
+        "Queue",
+        "Stack",
+        "Array",
+        "Tree"
+      ],
+      "correctAnswer": "Stack"
+    },
+    {
+      "id": "2",
+      "subjectId": "CSD201",
+      "content": "What is the time complexity of binary search?",
+      "options": [
+        "O(n)",
+        "O(log n)",
+        "O(1)",
+        "O(n log n)"
+      ],
+      "correctAnswer": "O(log n)"
+    },
+    {
+      "id": "3",
+      "subjectId": "CSD201",
+      "content": "Which traversal visits root node first in trees?",
+      "options": [
+        "Inorder",
+        "Preorder",
+        "Postorder",
+        "Level-order"
+      ],
+      "correctAnswer": "Preorder"
+    },
+    {
+      "id": "4",
+      "subjectId": "CSD203",
+      "content": "What is an AVL tree?",
+      "options": [
+        "Binary Search Tree",
+        "Self-balancing BST",
+        "B-Tree",
+        "Red-Black Tree"
+      ],
+      "correctAnswer": "Self-balancing BST"
+    },
+    {
+      "id": "5",
+      "subjectId": "CSD203",
+      "content": "What is the maximum degree of a B-tree of order m?",
+      "options": [
+        "m",
+        "m-1",
+        "m/2",
+        "2m"
+      ],
+      "correctAnswer": "m"
+    },
+    {
+      "id": "6",
+      "subjectId": "DBI202",
+      "content": "Which SQL clause is used to filter records?",
+      "options": [
+        "WHERE",
+        "GROUP BY",
+        "ORDER BY",
+        "SELECT"
+      ],
+      "correctAnswer": "WHERE"
+    },
+    {
+      "id": "7",
+      "subjectId": "DBI202",
+      "content": "What does ACID stand for in databases?",
+      "options": [
+        "Atomicity, Consistency, Isolation, Durability",
+        "Access, Control, Index, Data",
+        "Association, Class, Interface, Dependency",
+        "None of the above"
+      ],
+      "correctAnswer": "Atomicity, Consistency, Isolation, Durability"
+    },
+    {
+      "id": "8",
+      "subjectId": "FER202",
+      "content": "What hook is used for side effects in React?",
+      "options": [
+        "useState",
+        "useEffect",
+        "useContext",
+        "useReducer"
+      ],
+      "correctAnswer": "useEffect"
+    },
+    {
+      "id": "9",
+      "subjectId": "FER202",
+      "content": "What is JSX?",
+      "options": [
+        "JavaScript XML",
+        "Java Syntax Extension",
+        "JSON XML",
+        "JavaScript Execution"
+      ],
+      "correctAnswer": "JavaScript XML"
+    },
+    {
+      "subjectId": "CSD201",
+      "content": "What is tree?",
+      "correctAnswer": "BsTree",
+      "options": [
+        "BSTree; AVL; abc; def"
+      ],
+      "id": "C8Z0u3xbqVQ"
+    },
+    {
+      "subjectId": "CSD201",
+      "content": "Sơn có đẹp trai không",
+      "options": [
+        "Có",
+        "Có hihi",
+        "Vẫn là có"
+      ],
+      "correctAnswer": "Vẫn là có",
+      "id": "EUiKSt0hU3E"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
